@@ -174,7 +174,7 @@ L7 <- terra::rast(system.file("tif/L7_ETMs.tif", package = "stars"))
 
 ```{r}
 map1 <- tm_shape(L7) +
-  tm_rgb(r = 1, g = 2, b = 3) +
+  tm_rgb(r = 3, g = 2, b = 1) +
   tm_layout(main.title = "true color")
 
 map2 <- tm_shape(L7) +
